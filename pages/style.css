@@ -1,0 +1,95 @@
+body{
+    min-height: 700px;
+}
+/*Ajustes do texto da página principal*/
+.text
+{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    text-decoration:none;
+    text-align: center;
+    color: rgb(13, 14, 14);
+}
+/*Alterar a cor da fonte dos links*/
+a{
+    color: black;
+    text-decoration: none;
+}
+/*Ajustes da pagina Introdução*/
+.intro
+{
+    text-align: center;
+    background-color:rgb(247, 229, 204);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-intro
+{
+font-size: x-large;
+font-weight: lighter;
+text-align:center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: black;
+}
+/*Ajustes da pagina Biografia*/
+.page-bio
+{
+    text-align: center;
+    background-color: rgb(247, 229, 204);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-bio
+{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    float: left;
+    width: 50%;
+    color: black;
+}
+.image-bio
+{
+    image-orientation: from-image;
+    image-rendering: crisp-edges;
+    float: right;
+    width: 45%;
+}
+/*Ajustes da pagina Obras*/
+.page-obras{
+    background-color: rgb(247, 229, 204);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-obr
+{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+/*Ajustes para a pagina final*/
+.page-fim
+{
+    text-align: center;
+    background-color: rgb(247, 229, 204);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.text-fim
+{
+    text-align: center;
+    font-size:x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(12, 12, 12);
+    font-weight:lighter;
+    float: left;
+    width: 50%;
+}
+.image-fim
+{
+image-orientation: from-image;
+image-rendering: crisp-edges;
+float: right;
+width: 46%;
+}

@@ -1,0 +1,26 @@
+.home  /* Ajustes do plano de fundo */
+{
+    background-image:url(/images/Les_DemoisellesdAvignon.jpg);
+    background-size: 100%;
+    background-position:certer center;
+    background-repeat:repeat-y;
+    background-color: rgb(247, 229, 204);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: overline underline;
+    font-size: larger;
+    color: rgb(105, 40, 20);
+}
+body{
+    min-height: 700px;
+}
+button{
+    font-size: large;
+    font-weight: lighter;
+    background-color: blanchedalmond;
+    border-radius: 10px 10px;
+    margin: 8px;
+    text-decoration: none;
+}
+/* Para a estilização das palavras quis usar
+uma paleta de cores parecida com a da imagem de background*/
